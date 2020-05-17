@@ -7,4 +7,6 @@ target 'TrueLoveProject' do
 
   # Pods for TrueLoveProject
 
+pod 'BTNavigationDropdownMenu'
+
 end

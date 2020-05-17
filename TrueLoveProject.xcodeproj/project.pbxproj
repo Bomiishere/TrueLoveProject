@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D36FD25A9A67CB94256E4DFC /* Pods_TrueLoveProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1568CC1018E3F8E389C7126E /* Pods_TrueLoveProject.framework */; };
 		F45E26C62462C01C00ED697A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45E26C52462C01C00ED697A /* AppDelegate.swift */; };
 		F45E26C82462C01C00ED697A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45E26C72462C01C00ED697A /* ViewController.swift */; };
 		F45E26CB2462C01C00ED697A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F45E26C92462C01C00ED697A /* Main.storyboard */; };
 		F45E26CD2462C01E00ED697A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F45E26CC2462C01E00ED697A /* Assets.xcassets */; };
 		F45E26D02462C01E00ED697A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F45E26CE2462C01E00ED697A /* LaunchScreen.storyboard */; };
+		F4BB818B247135B500EFB278 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BB818A247135B500EFB278 /* TestData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1568CC1018E3F8E389C7126E /* Pods_TrueLoveProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrueLoveProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BB76800D2AF6E256CB63109 /* Pods-TrueLoveProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrueLoveProject.release.xcconfig"; path = "Target Support Files/Pods-TrueLoveProject/Pods-TrueLoveProject.release.xcconfig"; sourceTree = "<group>"; };
+		B17736FC89553218697B8F2C /* Pods-TrueLoveProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrueLoveProject.debug.xcconfig"; path = "Target Support Files/Pods-TrueLoveProject/Pods-TrueLoveProject.debug.xcconfig"; sourceTree = "<group>"; };
 		F45E26C22462C01C00ED697A /* TrueLoveProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrueLoveProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F45E26C52462C01C00ED697A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F45E26C72462C01C00ED697A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		F45E26CC2462C01E00ED697A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F45E26CF2462C01E00ED697A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F45E26D12462C01E00ED697A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4BB818A247135B500EFB278 /* TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D36FD25A9A67CB94256E4DFC /* Pods_TrueLoveProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19651446E5FEC8631C3A6166 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B17736FC89553218697B8F2C /* Pods-TrueLoveProject.debug.xcconfig */,
+				9BB76800D2AF6E256CB63109 /* Pods-TrueLoveProject.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5D2434DECD9BD607DF9EB9A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1568CC1018E3F8E389C7126E /* Pods_TrueLoveProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F45E26B92462C01C00ED697A = {
 			isa = PBXGroup;
 			children = (
 				F45E26C42462C01C00ED697A /* TrueLoveProject */,
 				F45E26C32462C01C00ED697A /* Products */,
+				19651446E5FEC8631C3A6166 /* Pods */,
+				5D2434DECD9BD607DF9EB9A7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +87,7 @@
 				F45E26CC2462C01E00ED697A /* Assets.xcassets */,
 				F45E26CE2462C01E00ED697A /* LaunchScreen.storyboard */,
 				F45E26D12462C01E00ED697A /* Info.plist */,
+				F4BB818A247135B500EFB278 /* TestData.swift */,
 			);
 			path = TrueLoveProject;
 			sourceTree = "<group>";
@@ -71,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F45E26D42462C01E00ED697A /* Build configuration list for PBXNativeTarget "TrueLoveProject" */;
 			buildPhases = (
+				0C728DCF4DB121974A5AFE2A /* [CP] Check Pods Manifest.lock */,
 				F45E26BE2462C01C00ED697A /* Sources */,
 				F45E26BF2462C01C00ED697A /* Frameworks */,
 				F45E26C02462C01C00ED697A /* Resources */,
+				897B570366ADEBCB2654E28F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,11 +160,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C728DCF4DB121974A5AFE2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrueLoveProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		897B570366ADEBCB2654E28F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrueLoveProject/Pods-TrueLoveProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrueLoveProject/Pods-TrueLoveProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TrueLoveProject/Pods-TrueLoveProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F45E26BE2462C01C00ED697A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4BB818B247135B500EFB278 /* TestData.swift in Sources */,
 				F45E26C82462C01C00ED697A /* ViewController.swift in Sources */,
 				F45E26C62462C01C00ED697A /* AppDelegate.swift in Sources */,
 			);
@@ -280,6 +353,7 @@
 		};
 		F45E26D52462C01E00ED697A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B17736FC89553218697B8F2C /* Pods-TrueLoveProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +372,7 @@
 		};
 		F45E26D62462C01E00ED697A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BB76800D2AF6E256CB63109 /* Pods-TrueLoveProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

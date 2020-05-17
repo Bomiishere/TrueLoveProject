@@ -8,5 +8,6 @@ target 'TrueLoveProject' do
   # Pods for TrueLoveProject
 
 pod 'BTNavigationDropdownMenu'
+pod 'NVActivityIndicatorView'
 
 end

@@ -3,17 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		D36FD25A9A67CB94256E4DFC /* Pods_TrueLoveProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1568CC1018E3F8E389C7126E /* Pods_TrueLoveProject.framework */; };
 		F45E26C62462C01C00ED697A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45E26C52462C01C00ED697A /* AppDelegate.swift */; };
-		F45E26C82462C01C00ED697A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45E26C72462C01C00ED697A /* ViewController.swift */; };
+		F45E26C82462C01C00ED697A /* MaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45E26C72462C01C00ED697A /* MaskViewController.swift */; };
 		F45E26CB2462C01C00ED697A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F45E26C92462C01C00ED697A /* Main.storyboard */; };
 		F45E26CD2462C01E00ED697A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F45E26CC2462C01E00ED697A /* Assets.xcassets */; };
 		F45E26D02462C01E00ED697A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F45E26CE2462C01E00ED697A /* LaunchScreen.storyboard */; };
 		F4BB818B247135B500EFB278 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BB818A247135B500EFB278 /* TestData.swift */; };
+		F4BB818E24713D0A00EFB278 /* LoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BB818D24713D0A00EFB278 /* LoadingIndicator.swift */; };
+		F4BB819024713E9A00EFB278 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BB818F24713E9A00EFB278 /* Constant.swift */; };
+		F4BB819424713FB400EFB278 /* MaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BB819224713FB400EFB278 /* MaskTableViewCell.swift */; };
+		F4BB819524713FB400EFB278 /* MaskTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4BB819324713FB400EFB278 /* MaskTableViewCell.xib */; };
+		F4BB81982471416A00EFB278 /* Mask.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BB81972471416A00EFB278 /* Mask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,12 +27,17 @@
 		B17736FC89553218697B8F2C /* Pods-TrueLoveProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrueLoveProject.debug.xcconfig"; path = "Target Support Files/Pods-TrueLoveProject/Pods-TrueLoveProject.debug.xcconfig"; sourceTree = "<group>"; };
 		F45E26C22462C01C00ED697A /* TrueLoveProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrueLoveProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F45E26C52462C01C00ED697A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F45E26C72462C01C00ED697A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F45E26C72462C01C00ED697A /* MaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskViewController.swift; sourceTree = "<group>"; };
 		F45E26CA2462C01C00ED697A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F45E26CC2462C01E00ED697A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F45E26CF2462C01E00ED697A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F45E26D12462C01E00ED697A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4BB818A247135B500EFB278 /* TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
+		F4BB818D24713D0A00EFB278 /* LoadingIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicator.swift; sourceTree = "<group>"; };
+		F4BB818F24713E9A00EFB278 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		F4BB819224713FB400EFB278 /* MaskTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskTableViewCell.swift; sourceTree = "<group>"; };
+		F4BB819324713FB400EFB278 /* MaskTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MaskTableViewCell.xib; sourceTree = "<group>"; };
+		F4BB81972471416A00EFB278 /* Mask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +58,6 @@
 				B17736FC89553218697B8F2C /* Pods-TrueLoveProject.debug.xcconfig */,
 				9BB76800D2AF6E256CB63109 /* Pods-TrueLoveProject.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -81,15 +90,44 @@
 		F45E26C42462C01C00ED697A /* TrueLoveProject */ = {
 			isa = PBXGroup;
 			children = (
+				F4BB81962471415900EFB278 /* Model */,
+				F4BB818C24713CFB00EFB278 /* Common */,
+				F4BB819124713F8D00EFB278 /* View */,
 				F45E26C52462C01C00ED697A /* AppDelegate.swift */,
-				F45E26C72462C01C00ED697A /* ViewController.swift */,
+				F45E26C72462C01C00ED697A /* MaskViewController.swift */,
 				F45E26C92462C01C00ED697A /* Main.storyboard */,
 				F45E26CC2462C01E00ED697A /* Assets.xcassets */,
 				F45E26CE2462C01E00ED697A /* LaunchScreen.storyboard */,
 				F45E26D12462C01E00ED697A /* Info.plist */,
-				F4BB818A247135B500EFB278 /* TestData.swift */,
 			);
 			path = TrueLoveProject;
+			sourceTree = "<group>";
+		};
+		F4BB818C24713CFB00EFB278 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F4BB818A247135B500EFB278 /* TestData.swift */,
+				F4BB818D24713D0A00EFB278 /* LoadingIndicator.swift */,
+				F4BB818F24713E9A00EFB278 /* Constant.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		F4BB819124713F8D00EFB278 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F4BB819224713FB400EFB278 /* MaskTableViewCell.swift */,
+				F4BB819324713FB400EFB278 /* MaskTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F4BB81962471415900EFB278 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F4BB81972471416A00EFB278 /* Mask.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F45E26D02462C01E00ED697A /* LaunchScreen.storyboard in Resources */,
+				F4BB819524713FB400EFB278 /* MaskTableViewCell.xib in Resources */,
 				F45E26CD2462C01E00ED697A /* Assets.xcassets in Resources */,
 				F45E26CB2462C01C00ED697A /* Main.storyboard in Resources */,
 			);
@@ -207,8 +246,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4BB818E24713D0A00EFB278 /* LoadingIndicator.swift in Sources */,
+				F4BB819424713FB400EFB278 /* MaskTableViewCell.swift in Sources */,
+				F4BB81982471416A00EFB278 /* Mask.swift in Sources */,
 				F4BB818B247135B500EFB278 /* TestData.swift in Sources */,
-				F45E26C82462C01C00ED697A /* ViewController.swift in Sources */,
+				F4BB819024713E9A00EFB278 /* Constant.swift in Sources */,
+				F45E26C82462C01C00ED697A /* MaskViewController.swift in Sources */,
 				F45E26C62462C01C00ED697A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

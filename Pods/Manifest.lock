@@ -1,16 +1,22 @@
 PODS:
   - BTNavigationDropdownMenu (0.5)
+  - NVActivityIndicatorView (4.8.0):
+    - NVActivityIndicatorView/Presenter (= 4.8.0)
+  - NVActivityIndicatorView/Presenter (4.8.0)
 
 DEPENDENCIES:
   - BTNavigationDropdownMenu
+  - NVActivityIndicatorView
 
 SPEC REPOS:
   trunk:
     - BTNavigationDropdownMenu
+    - NVActivityIndicatorView
 
 SPEC CHECKSUMS:
   BTNavigationDropdownMenu: ba3a26fdb6a56c4721c31df8a0875106c259663a
+  NVActivityIndicatorView: d24b7ebcf80af5dcd994adb650e2b6c93379270f
 
-PODFILE CHECKSUM: 0ab29d867b824356d9ba4bb8302d1abd7d6dfe03
+PODFILE CHECKSUM: 973a6ca5b0d0a0cac1100bc33b01f9208b0f76e2
 
 COCOAPODS: 1.9.1

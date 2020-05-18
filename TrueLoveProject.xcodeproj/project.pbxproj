@@ -19,7 +19,24 @@
 		F4BB819424713FB400EFB278 /* MaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BB819224713FB400EFB278 /* MaskTableViewCell.swift */; };
 		F4BB819524713FB400EFB278 /* MaskTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4BB819324713FB400EFB278 /* MaskTableViewCell.xib */; };
 		F4BB81982471416A00EFB278 /* Mask.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BB81972471416A00EFB278 /* Mask.swift */; };
+		F4BB819A2471460400EFB278 /* Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BB81992471460400EFB278 /* Geometry.swift */; };
+		F4BB81A224714BA000EFB278 /* TrueLoveModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BB81A124714BA000EFB278 /* TrueLoveModelTests.swift */; };
+		F4BB81A924714BF700EFB278 /* Mask.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BB81972471416A00EFB278 /* Mask.swift */; };
+		F4BB81AA24714BFA00EFB278 /* Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BB81992471460400EFB278 /* Geometry.swift */; };
+		F4BB81AD2471509100EFB278 /* MaskPatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BB81AC2471509100EFB278 /* MaskPatch.swift */; };
+		F4BB81AF247151B900EFB278 /* MaskInfos.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BB81AE247151B900EFB278 /* MaskInfos.swift */; };
+		F4BB81B024715D5800EFB278 /* MaskInfos.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BB81AE247151B900EFB278 /* MaskInfos.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4BB81A424714BA000EFB278 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F45E26BA2462C01C00ED697A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F45E26C12462C01C00ED697A;
+			remoteInfo = TrueLoveProject;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1568CC1018E3F8E389C7126E /* Pods_TrueLoveProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrueLoveProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,6 +55,12 @@
 		F4BB819224713FB400EFB278 /* MaskTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskTableViewCell.swift; sourceTree = "<group>"; };
 		F4BB819324713FB400EFB278 /* MaskTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MaskTableViewCell.xib; sourceTree = "<group>"; };
 		F4BB81972471416A00EFB278 /* Mask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mask.swift; sourceTree = "<group>"; };
+		F4BB81992471460400EFB278 /* Geometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geometry.swift; sourceTree = "<group>"; };
+		F4BB819F24714B9F00EFB278 /* TrueLoveProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrueLoveProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4BB81A124714BA000EFB278 /* TrueLoveModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrueLoveModelTests.swift; sourceTree = "<group>"; };
+		F4BB81A324714BA000EFB278 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4BB81AC2471509100EFB278 /* MaskPatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskPatch.swift; sourceTree = "<group>"; };
+		F4BB81AE247151B900EFB278 /* MaskInfos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskInfos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +69,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D36FD25A9A67CB94256E4DFC /* Pods_TrueLoveProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4BB819C24714B9F00EFB278 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				F45E26C42462C01C00ED697A /* TrueLoveProject */,
+				F4BB81A024714BA000EFB278 /* TrueLoveProjectTests */,
 				F45E26C32462C01C00ED697A /* Products */,
 				19651446E5FEC8631C3A6166 /* Pods */,
 				5D2434DECD9BD607DF9EB9A7 /* Frameworks */,
@@ -83,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				F45E26C22462C01C00ED697A /* TrueLoveProject.app */,
+				F4BB819F24714B9F00EFB278 /* TrueLoveProjectTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -90,6 +122,7 @@
 		F45E26C42462C01C00ED697A /* TrueLoveProject */ = {
 			isa = PBXGroup;
 			children = (
+				F4BB81AB2471507D00EFB278 /* Networking */,
 				F4BB81962471415900EFB278 /* Model */,
 				F4BB818C24713CFB00EFB278 /* Common */,
 				F4BB819124713F8D00EFB278 /* View */,
@@ -126,8 +159,27 @@
 			isa = PBXGroup;
 			children = (
 				F4BB81972471416A00EFB278 /* Mask.swift */,
+				F4BB81992471460400EFB278 /* Geometry.swift */,
+				F4BB81AE247151B900EFB278 /* MaskInfos.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		F4BB81A024714BA000EFB278 /* TrueLoveProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4BB81A124714BA000EFB278 /* TrueLoveModelTests.swift */,
+				F4BB81A324714BA000EFB278 /* Info.plist */,
+			);
+			path = TrueLoveProjectTests;
+			sourceTree = "<group>";
+		};
+		F4BB81AB2471507D00EFB278 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				F4BB81AC2471509100EFB278 /* MaskPatch.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +204,24 @@
 			productReference = F45E26C22462C01C00ED697A /* TrueLoveProject.app */;
 			productType = "com.apple.product-type.application";
 		};
+		F4BB819E24714B9F00EFB278 /* TrueLoveProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4BB81A624714BA000EFB278 /* Build configuration list for PBXNativeTarget "TrueLoveProjectTests" */;
+			buildPhases = (
+				F4BB819B24714B9F00EFB278 /* Sources */,
+				F4BB819C24714B9F00EFB278 /* Frameworks */,
+				F4BB819D24714B9F00EFB278 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4BB81A524714BA000EFB278 /* PBXTargetDependency */,
+			);
+			name = TrueLoveProjectTests;
+			productName = TrueLoveProjectTests;
+			productReference = F4BB819F24714B9F00EFB278 /* TrueLoveProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -164,6 +234,10 @@
 				TargetAttributes = {
 					F45E26C12462C01C00ED697A = {
 						CreatedOnToolsVersion = 10.2.1;
+					};
+					F4BB819E24714B9F00EFB278 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = F45E26C12462C01C00ED697A;
 					};
 				};
 			};
@@ -181,6 +255,7 @@
 			projectRoot = "";
 			targets = (
 				F45E26C12462C01C00ED697A /* TrueLoveProject */,
+				F4BB819E24714B9F00EFB278 /* TrueLoveProjectTests */,
 			);
 		};
 /* End PBXProject section */
@@ -194,6 +269,13 @@
 				F4BB819524713FB400EFB278 /* MaskTableViewCell.xib in Resources */,
 				F45E26CD2462C01E00ED697A /* Assets.xcassets in Resources */,
 				F45E26CB2462C01C00ED697A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4BB819D24714B9F00EFB278 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,16 +329,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4BB818E24713D0A00EFB278 /* LoadingIndicator.swift in Sources */,
+				F4BB81AD2471509100EFB278 /* MaskPatch.swift in Sources */,
 				F4BB819424713FB400EFB278 /* MaskTableViewCell.swift in Sources */,
 				F4BB81982471416A00EFB278 /* Mask.swift in Sources */,
 				F4BB818B247135B500EFB278 /* TestData.swift in Sources */,
 				F4BB819024713E9A00EFB278 /* Constant.swift in Sources */,
+				F4BB819A2471460400EFB278 /* Geometry.swift in Sources */,
+				F4BB81AF247151B900EFB278 /* MaskInfos.swift in Sources */,
 				F45E26C82462C01C00ED697A /* MaskViewController.swift in Sources */,
 				F45E26C62462C01C00ED697A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F4BB819B24714B9F00EFB278 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4BB81A224714BA000EFB278 /* TrueLoveModelTests.swift in Sources */,
+				F4BB81B024715D5800EFB278 /* MaskInfos.swift in Sources */,
+				F4BB81AA24714BFA00EFB278 /* Geometry.swift in Sources */,
+				F4BB81A924714BF700EFB278 /* Mask.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4BB81A524714BA000EFB278 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F45E26C12462C01C00ED697A /* TrueLoveProject */;
+			targetProxy = F4BB81A424714BA000EFB278 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F45E26C92462C01C00ED697A /* Main.storyboard */ = {
@@ -432,6 +536,46 @@
 			};
 			name = Release;
 		};
+		F4BB81A724714BA000EFB278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5VBM73Y9G2;
+				INFOPLIST_FILE = TrueLoveProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = amG.TrueLoveProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrueLoveProject.app/TrueLoveProject";
+			};
+			name = Debug;
+		};
+		F4BB81A824714BA000EFB278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5VBM73Y9G2;
+				INFOPLIST_FILE = TrueLoveProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = amG.TrueLoveProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrueLoveProject.app/TrueLoveProject";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -449,6 +593,15 @@
 			buildConfigurations = (
 				F45E26D52462C01E00ED697A /* Debug */,
 				F45E26D62462C01E00ED697A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4BB81A624714BA000EFB278 /* Build configuration list for PBXNativeTarget "TrueLoveProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4BB81A724714BA000EFB278 /* Debug */,
+				F4BB81A824714BA000EFB278 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -21,4 +21,8 @@ class MaskTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
+    public func configure(model: Mask) {
+        
+    }
+    
 }
